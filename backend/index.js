@@ -24,7 +24,7 @@ app.use(fileUpload({
 
 app.use(
     cors({
-      origin:"https://course-app-gamma-sable.vercel.app/",
+      origin:process.env.FRONTEND_URL,
       credentials: true,
       methods: ["GET", "POST", "PUT", "DELETE"],
       allowedHeaders: ["Content-Type", "Authorization"],
