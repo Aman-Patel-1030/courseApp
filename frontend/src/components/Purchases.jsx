@@ -40,7 +40,7 @@ function Purchases() {
   useEffect(() => {
     const fetchPurchases = async () => {
       try {
-        const response = await axios.get(`${BACKEND_URL}/user/purchases`, {
+        const response = await axios.get(`${BACKEND_URL}/user/purchased`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
