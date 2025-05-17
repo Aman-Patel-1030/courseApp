@@ -96,9 +96,9 @@ function Purchases() {
               </Link>
             </li>
             <li className="mb-4">
-              <a href="/purchases" className="flex items-center text-blue-500">
+              <Link  to="/purchases" className="flex items-center">
                 <FaDownload className="mr-2" /> Purchases
-              </a>
+              </Link>
             </li>
             <li className="mb-4">
               <Link to="/settings" className="flex items-center">
